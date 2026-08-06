@@ -71,6 +71,11 @@ duration = pulseIn(echoPin, HIGH);
 distance = (duration * .0343) / 2;
 Serial.print("Distance: ");
 Serial.println(distance);
+
+//updateled(ledyellow, 20);
+//updateled(ledgreen, 10);
+//updateled(ledred, 5);
+// controls lights somehow
 }
 
 void potentimeter () {
